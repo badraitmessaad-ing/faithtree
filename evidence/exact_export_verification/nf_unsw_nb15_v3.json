@@ -1,0 +1,64 @@
+{
+  "dataset": "nf_unsw_nb15_v3",
+  "model": "esp32_dt_final_results/nf_unsw_nb15_v3/full_pipeline_20260916_001100.pkl",
+  "per_node_check": {
+    "internal_nodes": 608,
+    "finite_cuts_checked": 608,
+    "always_left_or_right": 0,
+    "cut_goes_left": 608,
+    "next_float_goes_right": 608,
+    "exact": true,
+    "edge_cases": {
+      "internal_nodes": 608,
+      "medians_are_float32": true,
+      "nan": 608,
+      "+inf": 608,
+      "-inf": 608,
+      "-0.0": 608,
+      "+0.0": 608,
+      "-FLT_MAX": 608,
+      "+FLT_MAX": 608,
+      "exact": true
+    },
+    "monotone": {
+      "features_checked": 34,
+      "points_per_feature": 2049,
+      "non_monotone_features": [],
+      "exact": true
+    }
+  },
+  "rows_per_batch": 100000,
+  "cuts_and_neighbours": {
+    "exact_c_logic_mismatches": 0,
+    "legacy_c_logic_mismatches": 901,
+    "compiled_exact_header": {
+      "compiled": true,
+      "compiler": "MinGW gcc (Anaconda), Windows",
+      "n": 100000,
+      "matches": 100000,
+      "agreement": 1.0
+    }
+  },
+  "with_nan_and_inf": {
+    "exact_c_logic_mismatches": 0,
+    "legacy_c_logic_mismatches": 783,
+    "compiled_exact_header": {
+      "compiled": true,
+      "compiler": "MinGW gcc (Anaconda), Windows",
+      "n": 100000,
+      "matches": 100000,
+      "agreement": 1.0
+    }
+  },
+  "random_float32_bit_patterns": {
+    "exact_c_logic_mismatches": 0,
+    "legacy_c_logic_mismatches": 0,
+    "compiled_exact_header": {
+      "compiled": true,
+      "compiler": "MinGW gcc (Anaconda), Windows",
+      "n": 100000,
+      "matches": 100000,
+      "agreement": 1.0
+    }
+  }
+}

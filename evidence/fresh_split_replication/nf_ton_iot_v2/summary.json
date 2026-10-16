@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    7,
+    101,
+    2027
+  ],
+  "test_mcc_mean": 0.9720630193039174,
+  "test_mcc_sd": 0.0010608335308101386,
+  "test_macro_f1_mean": 0.9128006272852801,
+  "val_mcc_mean": 0.9721540972884729,
+  "val_minus_test_mean": 9.107798455554317e-05,
+  "winners": {
+    "random search": 2,
+    "fixed config": 1
+  },
+  "reported_seed42_test_mcc": 0.9722,
+  "difference_reported_minus_fresh": 0.00013698069608258923
+}

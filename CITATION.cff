@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FaithTree: exact and leakage-aware deployment of decision-tree intrusion detection on ESP32 microcontrollers"
+authors:
+  - family-names: "Ait Messaad"
+    given-names: "Badr"
+    orcid: "https://orcid.org/0009-0004-5029-6142"
+    affiliation: "LSATI Laboratory, Sidi Mohamed Ben Abdellah University"
+    email: "badr.aitmessaad@usmba.ac.ma"
+  - family-names: "Motahhir"
+    given-names: "Saad"
+    orcid: "https://orcid.org/0000-0002-6846-8908"
+    affiliation: "LSATI Laboratory, Sidi Mohamed Ben Abdellah University"
+version: "1.1.0"
+date-released: "2026-10-14"
+license: MIT

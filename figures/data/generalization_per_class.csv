@@ -1,0 +1,201 @@
+protocol,features,repeat,class,support,recall
+random split (reference),all features,0,Benign,179979,0.9903710988504214
+random split (reference),all features,0,backdoor,490,0.9938775510204082
+random split (reference),all features,0,ddos,59906,0.981120421994458
+random split (reference),all features,0,dos,20906,0.9161963072802066
+random split (reference),all features,0,injection,20216,0.8382963988919667
+random split (reference),all features,0,mitm,223,0.21076233183856502
+random split (reference),all features,0,password,34011,0.9446355590838258
+random split (reference),all features,0,ransomware,99,0.9393939393939394
+random split (reference),all features,0,scanning,111711,0.9924358389057478
+random split (reference),all features,0,xss,72459,0.9699002194344388
+unseen-host split,all features,0,Benign,254296,0.6712020637367477
+unseen-host split,all features,0,backdoor,17,0.0
+unseen-host split,all features,0,ddos,15743,0.858222702153338
+unseen-host split,all features,0,dos,8431,0.0
+unseen-host split,all features,0,injection,21395,0.9215704603879411
+unseen-host split,all features,0,mitm,240,0.49166666666666664
+unseen-host split,all features,0,password,28772,0.9976018351174754
+unseen-host split,all features,0,ransomware,306,0.7287581699346405
+unseen-host split,all features,0,scanning,14191,0.990839264322458
+unseen-host split,all features,0,xss,156609,0.9315045750882772
+random split (reference),all features,1,Benign,179979,0.9905877907978153
+random split (reference),all features,1,backdoor,490,0.9897959183673469
+random split (reference),all features,1,ddos,59906,0.9819717557506761
+random split (reference),all features,1,dos,20906,0.9131349851717211
+random split (reference),all features,1,injection,20216,0.8436881677878908
+random split (reference),all features,1,mitm,223,0.2645739910313901
+random split (reference),all features,1,password,34011,0.9481932316015407
+random split (reference),all features,1,ransomware,99,0.8282828282828283
+random split (reference),all features,1,scanning,111711,0.9923552738763416
+random split (reference),all features,1,xss,72459,0.9715011247740102
+unseen-host split,all features,1,Benign,41213,0.898405842816587
+unseen-host split,all features,1,backdoor,0,
+unseen-host split,all features,1,ddos,0,
+unseen-host split,all features,1,dos,11867,0.0
+unseen-host split,all features,1,injection,0,
+unseen-host split,all features,1,mitm,0,
+unseen-host split,all features,1,password,1,0.0
+unseen-host split,all features,1,ransomware,0,
+unseen-host split,all features,1,scanning,12999,0.9877682898684514
+unseen-host split,all features,1,xss,220435,0.9073876652981605
+random split (reference),all features,2,Benign,179979,0.9903155368126282
+random split (reference),all features,2,backdoor,490,0.9897959183673469
+random split (reference),all features,2,ddos,59906,0.9756618702634127
+random split (reference),all features,2,dos,20906,0.9176791351765043
+random split (reference),all features,2,injection,20216,0.8338444796201029
+random split (reference),all features,2,mitm,223,0.26905829596412556
+random split (reference),all features,2,password,34011,0.9480756225926906
+random split (reference),all features,2,ransomware,99,0.8181818181818182
+random split (reference),all features,2,scanning,111711,0.9915138169025431
+random split (reference),all features,2,xss,72459,0.9645040643674354
+unseen-host split,all features,2,Benign,191588,0.9553834269369689
+unseen-host split,all features,2,backdoor,39,0.0
+unseen-host split,all features,2,ddos,22176,0.856286075036075
+unseen-host split,all features,2,dos,1,0.0
+unseen-host split,all features,2,injection,30114,0.9008766686590954
+unseen-host split,all features,2,mitm,338,0.46153846153846156
+unseen-host split,all features,2,password,40498,0.9964195762753716
+unseen-host split,all features,2,ransomware,764,0.0
+unseen-host split,all features,2,scanning,12541,0.9893150466469979
+unseen-host split,all features,2,xss,0,
+random split (reference),all features,3,Benign,179979,0.989993276993427
+random split (reference),all features,3,backdoor,490,0.9938775510204082
+random split (reference),all features,3,ddos,59906,0.9804360164257336
+random split (reference),all features,3,dos,20906,0.9139959820147326
+random split (reference),all features,3,injection,20216,0.8294420261179264
+random split (reference),all features,3,mitm,223,0.30493273542600896
+random split (reference),all features,3,password,34011,0.9442827320572756
+random split (reference),all features,3,ransomware,99,0.7777777777777778
+random split (reference),all features,3,scanning,111711,0.9927939057031089
+random split (reference),all features,3,xss,72459,0.9701486357802344
+unseen-host split,all features,3,Benign,84467,0.6848473368297678
+unseen-host split,all features,3,backdoor,12,0.5
+unseen-host split,all features,3,ddos,63274,0.9747289566014476
+unseen-host split,all features,3,dos,0,
+unseen-host split,all features,3,injection,67261,0.6223666017454395
+unseen-host split,all features,3,mitm,0,
+unseen-host split,all features,3,password,34010,0.39970596883269627
+unseen-host split,all features,3,ransomware,276,0.8840579710144928
+unseen-host split,all features,3,scanning,9772,0.9897666803110929
+unseen-host split,all features,3,xss,240928,0.9849125049807411
+random split (reference),all features,4,Benign,179979,0.9903322054239662
+random split (reference),all features,4,backdoor,490,0.9897959183673469
+random split (reference),all features,4,ddos,59906,0.9797015324007612
+random split (reference),all features,4,dos,20906,0.9144743135941835
+random split (reference),all features,4,injection,20216,0.8353284527107242
+random split (reference),all features,4,mitm,223,0.30493273542600896
+random split (reference),all features,4,password,34011,0.9473111640351651
+random split (reference),all features,4,ransomware,99,0.696969696969697
+random split (reference),all features,4,scanning,111711,0.9919882554090466
+random split (reference),all features,4,xss,72459,0.9697346085372418
+unseen-host split,all features,4,Benign,191792,0.752560065070493
+unseen-host split,all features,4,backdoor,0,
+unseen-host split,all features,4,ddos,0,
+unseen-host split,all features,4,dos,0,
+unseen-host split,all features,4,injection,1,0.0
+unseen-host split,all features,4,mitm,0,
+unseen-host split,all features,4,password,64119,0.2500662830050375
+unseen-host split,all features,4,ransomware,0,
+unseen-host split,all features,4,scanning,211247,0.9911667384625581
+unseen-host split,all features,4,xss,32841,0.8756432508145306
+random split (reference),without host-fingerprint features,0,Benign,179979,0.988409758916318
+random split (reference),without host-fingerprint features,0,backdoor,490,0.9938775510204082
+random split (reference),without host-fingerprint features,0,ddos,59906,0.9770306814008614
+random split (reference),without host-fingerprint features,0,dos,20906,0.9155266430689755
+random split (reference),without host-fingerprint features,0,injection,20216,0.8300356153541749
+random split (reference),without host-fingerprint features,0,mitm,223,0.21973094170403587
+random split (reference),without host-fingerprint features,0,password,34011,0.9425185969245244
+random split (reference),without host-fingerprint features,0,ransomware,99,0.9191919191919192
+random split (reference),without host-fingerprint features,0,scanning,111711,0.991451155213005
+random split (reference),without host-fingerprint features,0,xss,72459,0.9692515767537504
+unseen-host split,without host-fingerprint features,0,Benign,254296,0.6962909365463869
+unseen-host split,without host-fingerprint features,0,backdoor,17,0.5294117647058824
+unseen-host split,without host-fingerprint features,0,ddos,15743,0.8723877278790574
+unseen-host split,without host-fingerprint features,0,dos,8431,0.9892064998220852
+unseen-host split,without host-fingerprint features,0,injection,21395,0.9204019630754849
+unseen-host split,without host-fingerprint features,0,mitm,240,0.4875
+unseen-host split,without host-fingerprint features,0,password,28772,0.9956207423884332
+unseen-host split,without host-fingerprint features,0,ransomware,306,0.7549019607843137
+unseen-host split,without host-fingerprint features,0,scanning,14191,0.9923190754703686
+unseen-host split,without host-fingerprint features,0,xss,156609,0.9275392857370904
+random split (reference),without host-fingerprint features,1,Benign,179979,0.9886653442901672
+random split (reference),without host-fingerprint features,1,backdoor,490,0.9897959183673469
+random split (reference),without host-fingerprint features,1,ddos,59906,0.976613360932127
+random split (reference),without host-fingerprint features,1,dos,20906,0.9127523199081603
+random split (reference),without host-fingerprint features,1,injection,20216,0.833992876929165
+random split (reference),without host-fingerprint features,1,mitm,223,0.2556053811659193
+random split (reference),without host-fingerprint features,1,password,34011,0.9445473523271882
+random split (reference),without host-fingerprint features,1,ransomware,99,0.7777777777777778
+random split (reference),without host-fingerprint features,1,scanning,111711,0.9917376086508938
+random split (reference),without host-fingerprint features,1,xss,72459,0.968547730440663
+unseen-host split,without host-fingerprint features,1,Benign,41213,0.9320360080557106
+unseen-host split,without host-fingerprint features,1,backdoor,0,
+unseen-host split,without host-fingerprint features,1,ddos,0,
+unseen-host split,without host-fingerprint features,1,dos,11867,0.9860958961826914
+unseen-host split,without host-fingerprint features,1,injection,0,
+unseen-host split,without host-fingerprint features,1,mitm,0,
+unseen-host split,without host-fingerprint features,1,password,1,0.0
+unseen-host split,without host-fingerprint features,1,ransomware,0,
+unseen-host split,without host-fingerprint features,1,scanning,12999,0.99253788752981
+unseen-host split,without host-fingerprint features,1,xss,220435,0.905123959443827
+random split (reference),without host-fingerprint features,2,Benign,179979,0.9883541968785248
+random split (reference),without host-fingerprint features,2,backdoor,490,0.9897959183673469
+random split (reference),without host-fingerprint features,2,ddos,59906,0.9762628117383901
+random split (reference),without host-fingerprint features,2,dos,20906,0.9183966325456807
+random split (reference),without host-fingerprint features,2,injection,20216,0.8341907400079145
+random split (reference),without host-fingerprint features,2,mitm,223,0.22869955156950672
+random split (reference),without host-fingerprint features,2,password,34011,0.9421363676457617
+random split (reference),without host-fingerprint features,2,ransomware,99,0.7373737373737373
+random split (reference),without host-fingerprint features,2,scanning,111711,0.9902158247621093
+random split (reference),without host-fingerprint features,2,xss,72459,0.9692377758456506
+unseen-host split,without host-fingerprint features,2,Benign,191588,0.9463431947721151
+unseen-host split,without host-fingerprint features,2,backdoor,39,0.0
+unseen-host split,without host-fingerprint features,2,ddos,22176,0.8618777056277056
+unseen-host split,without host-fingerprint features,2,dos,1,0.0
+unseen-host split,without host-fingerprint features,2,injection,30114,0.9118682340439662
+unseen-host split,without host-fingerprint features,2,mitm,338,0.46153846153846156
+unseen-host split,without host-fingerprint features,2,password,40498,0.996567731739839
+unseen-host split,without host-fingerprint features,2,ransomware,764,0.0
+unseen-host split,without host-fingerprint features,2,scanning,12541,0.9913882465513117
+unseen-host split,without host-fingerprint features,2,xss,0,
+random split (reference),without host-fingerprint features,3,Benign,179979,0.9886486756788292
+random split (reference),without host-fingerprint features,3,backdoor,490,0.9959183673469387
+random split (reference),without host-fingerprint features,3,ddos,59906,0.9766634393883751
+random split (reference),without host-fingerprint features,3,dos,20906,0.915813642016646
+random split (reference),without host-fingerprint features,3,injection,20216,0.8358231104075979
+random split (reference),without host-fingerprint features,3,mitm,223,0.2914798206278027
+random split (reference),without host-fingerprint features,3,password,34011,0.9436064802563876
+random split (reference),without host-fingerprint features,3,ransomware,99,0.8383838383838383
+random split (reference),without host-fingerprint features,3,scanning,111711,0.9911915567849182
+random split (reference),without host-fingerprint features,3,xss,72459,0.9668916214686927
+unseen-host split,without host-fingerprint features,3,Benign,84467,0.6825860987131069
+unseen-host split,without host-fingerprint features,3,backdoor,12,0.5
+unseen-host split,without host-fingerprint features,3,ddos,63274,0.9703195625375352
+unseen-host split,without host-fingerprint features,3,dos,0,
+unseen-host split,without host-fingerprint features,3,injection,67261,0.5914571594237373
+unseen-host split,without host-fingerprint features,3,mitm,0,
+unseen-host split,without host-fingerprint features,3,password,34010,0.40205821817112614
+unseen-host split,without host-fingerprint features,3,ransomware,276,0.8333333333333334
+unseen-host split,without host-fingerprint features,3,scanning,9772,0.9915063446582071
+unseen-host split,without host-fingerprint features,3,xss,240928,0.9863693717625183
+random split (reference),without host-fingerprint features,4,Benign,179979,0.9884875457692286
+random split (reference),without host-fingerprint features,4,backdoor,490,0.9897959183673469
+random split (reference),without host-fingerprint features,4,ddos,59906,0.9755617133509165
+random split (reference),without host-fingerprint features,4,dos,20906,0.9147134793839089
+random split (reference),without host-fingerprint features,4,injection,20216,0.8348337950138505
+random split (reference),without host-fingerprint features,4,mitm,223,0.27802690582959644
+random split (reference),without host-fingerprint features,4,password,34011,0.9387257063891095
+random split (reference),without host-fingerprint features,4,ransomware,99,0.8181818181818182
+random split (reference),without host-fingerprint features,4,scanning,111711,0.9916928503012237
+random split (reference),without host-fingerprint features,4,xss,72459,0.9678990877599746
+unseen-host split,without host-fingerprint features,4,Benign,191792,0.7742815133060816
+unseen-host split,without host-fingerprint features,4,backdoor,0,
+unseen-host split,without host-fingerprint features,4,ddos,0,
+unseen-host split,without host-fingerprint features,4,dos,0,
+unseen-host split,without host-fingerprint features,4,injection,1,0.0
+unseen-host split,without host-fingerprint features,4,mitm,0,
+unseen-host split,without host-fingerprint features,4,password,64119,0.25115800308800823
+unseen-host split,without host-fingerprint features,4,ransomware,0,
+unseen-host split,without host-fingerprint features,4,scanning,211247,0.9913844930342206
+unseen-host split,without host-fingerprint features,4,xss,32841,0.8707103924971834

@@ -1,0 +1,3 @@
+dataset,source,n_samples,python_esp32_matches,total_us,us_per_sample_reported,program_storage_bytes,flash_max_bytes,global_ram_bytes,free_dynamic_bytes,cpu_mhz,chip,latency_valid,note
+nf_ton_iot_v2,legacy sketch (timer around Serial.print),5000,5000,7485390,1497.078,1214284,1310720,22116,305564,240,ESP32-D0WD-V3 rev3.1,False,serial-bound; inference latency measured with the benchmark sketch
+nf_unsw_nb15_v3,legacy sketch (timer around Serial.print),5000,5000,5939583,1187.9166,1194508,1310720,22116,305564,240,ESP32-D0WD-V3 rev3.1,False,serial-bound; inference latency measured with the benchmark sketch

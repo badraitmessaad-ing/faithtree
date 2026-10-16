@@ -1,0 +1,19 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3   # paper results: 1.6.1
+matplotlib>=3.7
+scipy>=1.10
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.25
+jupyterlab>=4.0
+# optional: baselines and the tuning comparison (skipped automatically if missing)
+seaborn>=0.12
+xgboost>=2.0
+lightgbm>=4.0
+optuna>=3.4
+# tools/capture_serial.py
+pyserial>=3.5
+# optional: other C exporters compared in notebook 11
+emlearn>=0.20
+micromlgen>=1.1

@@ -1,0 +1,11 @@
+,pred_Benign,pred_backdoor,pred_ddos,pred_dos,pred_injection,pred_mitm,pred_password,pred_ransomware,pred_scanning,pred_xss
+true_Benign,1210658,0,290,1892,404,18,322,17,2439,3854
+true_backdoor,10,3346,0,1,0,0,2,1,0,2
+true_ddos,350,0,398668,4257,1212,5,214,1,42,498
+true_dos,202,0,1003,132812,21,8,5,0,2,8469
+true_injection,348,0,1609,1295,116938,1,4271,1,56,12374
+true_mitm,120,0,32,865,11,447,5,1,2,61
+true_password,188,0,192,285,2175,4,219867,0,37,7917
+true_ransomware,30,0,3,0,0,0,5,639,7,1
+true_scanning,3379,1,69,562,103,1,93,1,751796,279
+true_xss,188,0,98,6158,1349,4,3563,5,4,479635

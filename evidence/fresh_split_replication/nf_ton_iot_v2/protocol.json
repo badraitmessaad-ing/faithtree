@@ -1,0 +1,93 @@
+{
+  "written_at": "2026-10-14T10:58:14",
+  "purpose": "repeat the full selection procedure on fresh splits; one test evaluation per seed",
+  "dataset": "nf_ton_iot_v2",
+  "seeds": [
+    7,
+    101,
+    2027
+  ],
+  "split": {
+    "test": 0.2,
+    "validation_of_remainder": 0.2,
+    "stratified": true
+  },
+  "features": "leakage-safe profile of the dataset (same columns as the paper)",
+  "candidates": {
+    "fixed_config": {
+      "criterion": "gini",
+      "splitter": "best",
+      "max_depth": 20,
+      "min_samples_split": 10,
+      "min_samples_leaf": 8,
+      "min_weight_fraction_leaf": 0.0,
+      "max_features": null,
+      "class_weight": null,
+      "ccp_alpha": 1e-06
+    },
+    "fixed_config_source": "nf_ton_iot_v2_fixed_params.json",
+    "k_grid": [
+      20,
+      25,
+      30,
+      32,
+      34,
+      36
+    ],
+    "random_search_space": {
+      "criterion": [
+        "gini",
+        "entropy"
+      ],
+      "max_depth": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        24,
+        28,
+        32,
+        null
+      ],
+      "min_samples_split": [
+        2,
+        5,
+        10,
+        20,
+        40
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "ccp_alpha": [
+        0.0,
+        1e-08,
+        1e-07,
+        1e-06,
+        1e-05,
+        0.0001
+      ]
+    },
+    "random_search_budget": 95,
+    "constant_params": {
+      "splitter": "best",
+      "min_weight_fraction_leaf": 0.0,
+      "max_features": null,
+      "class_weight": null
+    }
+  },
+  "stage1": "each candidate fitted on a stratified subsample of 300,000 training rows, scored by validation MCC",
+  "stage2": "best fixed-config K and the top 3 search candidates refitted on the full training split, scored on the full validation split",
+  "selection": "best validation MCC among finalists with <= 32,767 nodes; ties -> fewer nodes",
+  "final": "winner refitted on train + validation; test split scored once",
+  "reported_seed42_test_mcc": 0.9722
+}

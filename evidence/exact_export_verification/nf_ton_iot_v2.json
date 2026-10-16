@@ -1,0 +1,64 @@
+{
+  "dataset": "nf_ton_iot_v2",
+  "model": "esp32_dt_final_results/nf_ton_iot_v2/full_pipeline_20261004_111511.pkl",
+  "per_node_check": {
+    "internal_nodes": 3536,
+    "finite_cuts_checked": 3536,
+    "always_left_or_right": 0,
+    "cut_goes_left": 3536,
+    "next_float_goes_right": 3536,
+    "exact": true,
+    "edge_cases": {
+      "internal_nodes": 3536,
+      "medians_are_float32": true,
+      "nan": 3536,
+      "+inf": 3536,
+      "-inf": 3536,
+      "-0.0": 3536,
+      "+0.0": 3536,
+      "-FLT_MAX": 3536,
+      "+FLT_MAX": 3536,
+      "exact": true
+    },
+    "monotone": {
+      "features_checked": 30,
+      "points_per_feature": 2049,
+      "non_monotone_features": [],
+      "exact": true
+    }
+  },
+  "rows_per_batch": 100000,
+  "cuts_and_neighbours": {
+    "exact_c_logic_mismatches": 0,
+    "legacy_c_logic_mismatches": 1270,
+    "compiled_exact_header": {
+      "compiled": true,
+      "compiler": "MinGW gcc (Anaconda), Windows",
+      "n": 100000,
+      "matches": 100000,
+      "agreement": 1.0
+    }
+  },
+  "with_nan_and_inf": {
+    "exact_c_logic_mismatches": 0,
+    "legacy_c_logic_mismatches": 1065,
+    "compiled_exact_header": {
+      "compiled": true,
+      "compiler": "MinGW gcc (Anaconda), Windows",
+      "n": 100000,
+      "matches": 100000,
+      "agreement": 1.0
+    }
+  },
+  "random_float32_bit_patterns": {
+    "exact_c_logic_mismatches": 0,
+    "legacy_c_logic_mismatches": 0,
+    "compiled_exact_header": {
+      "compiled": true,
+      "compiler": "MinGW gcc (Anaconda), Windows",
+      "n": 100000,
+      "matches": 100000,
+      "agreement": 1.0
+    }
+  }
+}

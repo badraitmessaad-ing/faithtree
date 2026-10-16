@@ -1,0 +1,17 @@
+{
+  "description": "Decision-tree hyper-parameters selected by validation MCC in the first search on NF-ToN-IoT-v2 (June 2026, 41 features, K = 35). Notebook 08 re-evaluates them on the 36-feature leakage-safe set and chooses K on the validation split.",
+  "selection_rule": "best validation MCC; test evaluated once after selection",
+  "best_k": 35,
+  "best_params": {
+    "criterion": "gini",
+    "splitter": "best",
+    "max_depth": 20,
+    "min_samples_split": 10,
+    "min_samples_leaf": 8,
+    "min_weight_fraction_leaf": 0.0,
+    "max_features": null,
+    "class_weight": null,
+    "ccp_alpha": 1e-06
+  },
+  "n_numeric_features": 41
+}

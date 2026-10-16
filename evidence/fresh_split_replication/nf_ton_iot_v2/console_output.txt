@@ -1,0 +1,83 @@
+================ seed 7 ================
+train 10,841,916 | validation 2,710,480 | test 3,388,100 (test untouched) | stage-1 rows 300,000
+  fixed config K=20: val MCC 0.9596  nodes 3,723
+  fixed config K=25: val MCC 0.9584  nodes 3,569
+  fixed config K=30: val MCC 0.9606  nodes 3,723
+  fixed config K=32: val MCC 0.9607  nodes 3,697
+  fixed config K=34: val MCC 0.9608  nodes 3,565
+  fixed config K=36: val MCC 0.9608  nodes 3,567
+  random search 10/95: best val MCC so far 0.9587
+  random search 20/95: best val MCC so far 0.9614
+  random search 30/95: best val MCC so far 0.9614
+  random search 40/95: best val MCC so far 0.9614
+  random search 50/95: best val MCC so far 0.9614
+  random search 60/95: best val MCC so far 0.9614
+  random search 70/95: best val MCC so far 0.9627
+  random search 80/95: best val MCC so far 0.9627
+  random search 90/95: best val MCC so far 0.9627
+  random search 95/95: best val MCC so far 0.9627
+  finalist [fixed config, K=34]: full-train val MCC 0.9716  nodes 6,891  (146.7s)
+  finalist [random search, K=25]: full-train val MCC 0.9756  nodes 60,829  (132.0s)
+  finalist [random search, K=34]: full-train val MCC 0.9714  nodes 26,653  (146.0s)
+  finalist [random search, K=30]: full-train val MCC 0.9731  nodes 15,835  (137.4s)
+  selected by validation: random search, K=30, val MCC 0.9731
+  TEST (once): MCC 0.9733  macro-F1 0.9160  nodes 15,121  depth 20
+
+================ seed 101 ================
+train 10,841,916 | validation 2,710,480 | test 3,388,100 (test untouched) | stage-1 rows 300,000
+  fixed config K=20: val MCC 0.9605  nodes 3,729
+  fixed config K=25: val MCC 0.9609  nodes 3,509
+  fixed config K=30: val MCC 0.9608  nodes 3,613
+  fixed config K=32: val MCC 0.9610  nodes 3,683
+  fixed config K=34: val MCC 0.9610  nodes 3,687
+  fixed config K=36: val MCC 0.9611  nodes 3,577
+  random search 10/95: best val MCC so far 0.9624
+  random search 20/95: best val MCC so far 0.9624
+  random search 30/95: best val MCC so far 0.9627
+  random search 40/95: best val MCC so far 0.9627
+  random search 50/95: best val MCC so far 0.9646
+  random search 60/95: best val MCC so far 0.9646
+  random search 70/95: best val MCC so far 0.9646
+  random search 80/95: best val MCC so far 0.9646
+  random search 90/95: best val MCC so far 0.9646
+  random search 95/95: best val MCC so far 0.9646
+  finalist [fixed config, K=36]: full-train val MCC 0.9717  nodes 6,761  (248.2s)
+  finalist [random search, K=30]: full-train val MCC 0.9662  nodes 1,823  (284.2s)
+  finalist [random search, K=20]: full-train val MCC 0.9744  nodes 90,959  (188.4s)
+  finalist [random search, K=36]: full-train val MCC 0.9649  nodes 1,597  (248.5s)
+  selected by validation: fixed config, K=36, val MCC 0.9717
+  TEST (once): MCC 0.9713  macro-F1 0.9049  nodes 6,747  depth 20
+
+================ seed 2027 ================
+train 10,841,916 | validation 2,710,480 | test 3,388,100 (test untouched) | stage-1 rows 300,000
+  fixed config K=20: val MCC 0.9601  nodes 3,723
+  fixed config K=25: val MCC 0.9610  nodes 3,507
+  fixed config K=30: val MCC 0.9610  nodes 3,453
+  fixed config K=32: val MCC 0.9610  nodes 3,647
+  fixed config K=34: val MCC 0.9611  nodes 3,607
+  fixed config K=36: val MCC 0.9610  nodes 3,527
+  random search 10/95: best val MCC so far 0.9608
+  random search 20/95: best val MCC so far 0.9608
+  random search 30/95: best val MCC so far 0.9647
+  random search 40/95: best val MCC so far 0.9647
+  random search 50/95: best val MCC so far 0.9647
+  random search 60/95: best val MCC so far 0.9647
+  random search 70/95: best val MCC so far 0.9647
+  random search 80/95: best val MCC so far 0.9647
+  random search 90/95: best val MCC so far 0.9647
+  random search 95/95: best val MCC so far 0.9647
+  finalist [fixed config, K=34]: full-train val MCC 0.9716  nodes 6,823  (240.3s)
+  finalist [random search, K=32]: full-train val MCC 0.9660  nodes 1,743  (229.8s)
+  finalist [random search, K=36]: full-train val MCC 0.9717  nodes 32,107  (192.5s)
+  finalist [random search, K=32]: full-train val MCC 0.9682  nodes 16,737  (165.4s)
+  selected by validation: random search, K=36, val MCC 0.9717
+  TEST (once): MCC 0.9716  macro-F1 0.9175  nodes 34,471  depth 18
+
+================ summary ================
+ seed        winner  k  val_mcc  test_mcc  test_macro_f1  nodes  depth
+    7 random search 30   0.9731    0.9733         0.9160  15121     20
+  101  fixed config 36   0.9717    0.9713         0.9049   6747     20
+ 2027 random search 36   0.9717    0.9716         0.9175  34471     18
+
+fresh-split test MCC: 0.9721 ± 0.0011  (paper, seed 42: 0.9722; difference +0.0001)
+saved in results/fresh_split_replication/nf_ton_iot_v2
